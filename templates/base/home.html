@@ -1,0 +1,21 @@
+{% extends "base/base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+    Blog list
+{% endblock title %}
+
+{% block content %}
+
+<div class="container">
+    <nav style="background-color: {{ color }}">
+        <a class="navbar-brand" href="#">Home</a>
+    </nav>
+    <div class="row">
+        <div class="col-12" style="width: 500px; height: 500px">
+            <img src="{{ image.url }}" alt="{{ article.title }}">
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
