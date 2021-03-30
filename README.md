@@ -5,7 +5,7 @@ This is a project which we can change the color of the frontend page from django
 - Clone this repository and install dependencies
 
     ```commandline
-    git clone https://github.com/iotfan90/django_change_color.git
+    git clone https://github.com/jswebguru/django_change_color.git
     pip install -r requirements.txt     
   ```
 - Create DB
